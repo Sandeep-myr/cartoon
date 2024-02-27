@@ -1,0 +1,17 @@
+package com.cartoon.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cartoon.model.Admin;
+
+@RestController("/admin")
+public class AdminController {
+	
+	@PostMapping("/createAdmin")
+	
+
+	private Admin createAdmin() {
+		return 
+	}
+}

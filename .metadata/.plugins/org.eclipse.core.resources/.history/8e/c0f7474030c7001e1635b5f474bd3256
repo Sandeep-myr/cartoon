@@ -1,0 +1,10 @@
+package com.cartoon.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class AdminServiceImpl {
+
+	
+	
+}

@@ -1,0 +1,15 @@
+package com.cartoon.service;
+
+import org.springframework.http.ResponseEntity;
+
+import com.cartoon.model.CartoonModel;
+
+public interface CartoonService {
+
+	
+
+	ResponseEntity<CartoonModel> addCartoonByAdmin(CartoonModel cartoonModel);
+
+	
+
+}

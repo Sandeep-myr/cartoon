@@ -1,0 +1,5 @@
+package com.cartoon.controller;
+@Rest
+public class AdminController {
+
+}

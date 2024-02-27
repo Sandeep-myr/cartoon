@@ -1,0 +1,9 @@
+package com.cartoon.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cartoon.model.CartoonModel2;
+
+public interface Cartoon2Repo extends JpaRepository<CartoonModel2, Long> {
+
+}

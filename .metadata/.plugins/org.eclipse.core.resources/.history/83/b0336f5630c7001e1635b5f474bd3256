@@ -1,0 +1,20 @@
+package com.cartoon.serviceImpl;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.cartoon.model.Admin;
+import com.cartoon.service.AdminService;
+
+@Service
+public class AdminServiceImpl implements AdminService{
+
+	@Override
+	public ResponseEntity<Admin> validateAdmin(String email, String password) {
+		
+		return null;
+	}
+
+	
+	
+}

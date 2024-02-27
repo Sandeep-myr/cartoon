@@ -1,0 +1,11 @@
+package com.cartoon.service;
+
+import org.springframework.http.ResponseEntity;
+
+import com.cartoon.model.UserModel;
+
+public interface UserService {
+
+	ResponseEntity<UserModel> registerUser(UserModel model);
+
+}

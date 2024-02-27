@@ -1,0 +1,5 @@
+package com.cartoon.service;
+
+public class ImageService {
+
+}

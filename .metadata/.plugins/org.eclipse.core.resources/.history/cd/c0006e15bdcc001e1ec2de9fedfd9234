@@ -1,0 +1,5 @@
+package com.cartoon.exception;
+
+public class CartoonExceptionHandler {
+
+}

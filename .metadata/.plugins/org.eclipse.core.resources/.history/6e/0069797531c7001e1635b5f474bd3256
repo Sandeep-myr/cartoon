@@ -1,0 +1,11 @@
+package com.cartoon.service;
+
+import org.apache.catalina.User;
+
+import com.cartoon.model.UserModel;
+
+public interface UserService {
+
+	User registerUser(UserModel model);
+
+}
